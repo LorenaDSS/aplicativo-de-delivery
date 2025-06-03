@@ -38,38 +38,50 @@ Diz ao navegador que o documento está usando HTML5.
 ```
 Abre o documento HTML.
 
-O atributo lang="en" indica que o conteúdo está em inglês.
+O atributo lang="pt" indica que o conteúdo está em português.
 
-Se você quiser mudar para português, use lang="pt-br".
+Se você quiser mudar para inglês, use lang="en".
 
+```html
 <head>
+```
 Inicia a parte não visível diretamente na tela, mas essencial para configurações da página.
 
 Aqui ficam títulos, links de estilo, scripts, entre outros.
 
+```html
 <meta charset="UTF-8">
+```
 Define o conjunto de caracteres como UTF-8, que permite o uso de acentos, símbolos e emojis.
 
 Evita que palavras como "coração" ou "ação" apareçam com erros.
 
+```html
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+```
 Garante que o site funcione com o modo mais moderno possível em navegadores antigos, como o Internet Explorer.
 
 O X-UA-Compatible diz: "Use a versão mais atual disponível, não algo ultrapassado."
 
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
 Deixa o site responsivo, ou seja, adaptável a celulares, tablets e computadores.
 
 width=device-width: ajusta a largura da tela.
 
 initial-scale=1.0: define o nível de zoom inicial.
 
+```html
 <title>Tasty Bites</title>
+```
 Define o título da aba do navegador.
 
 Neste caso, o nome da aba será "Tasty Bites".
 
+```html
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" ...>
+```
 Importa a biblioteca Font Awesome, que permite o uso de ícones prontos (como coração, carrinho, estrela etc).
 
 rel="stylesheet" diz que é um arquivo de estilo CSS.
@@ -81,7 +93,9 @@ integrity="...": garante que o arquivo baixado não foi modificado. Proteção c
 
 crossorigin="anonymous": permite carregar o arquivo sem enviar dados pessoais (cookies, etc).
 
+```html
 <link rel="stylesheet" href="style.css">
+```
 Importa o arquivo CSS do projeto, que está salvo localmente com o nome style.css.
 
 Aqui é onde você define cores, tamanhos, espaçamentos, fontes, etc do seu site.
