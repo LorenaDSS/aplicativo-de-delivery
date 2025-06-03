@@ -24,7 +24,7 @@ Vamos começar com o **início do arquivo**, que define configurações essencia
 
 ---
 
-🧠 Explicação de cada linha:
+# 🧠 Explicação de cada linha:
 <!DOCTYPE html>
 Diz ao navegador que o documento está usando HTML5.
 
