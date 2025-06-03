@@ -22,6 +22,7 @@ Vamos começar com o **início do arquivo**, que define configurações essencia
     <link rel="stylesheet" href="style.css">
 </head>
 
+```
 ---
 
 # 🧠 Explicação de cada linha:
